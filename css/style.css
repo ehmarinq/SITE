@@ -1,0 +1,193 @@
+/*font-family: 'Indie Flower', cursive;
+ font-family: 'Montserrat', sans-serif;
+
+ font-family: 'Shadows Into Light', cursive;
+*/
+
+#contenidos{
+	width: 1200px;
+	height: auto;
+	margin: auto;
+	position: relative;
+}
+
+
+/*ETIQUETAS*/
+body{
+background-image: url(../img/fondo2.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+h1{
+font-family: 'Shadows Into Light', cursive;
+color: black;
+margin-left: 10px;
+font-size: 90px;
+text-align: center; 
+}
+
+h2{
+font-family: 'Shadows Into Light', cursive;
+color: white;
+margin-left: 10px;
+margin-top: 1px;
+font-size: 20px;
+text-align: center; 
+}
+
+h3{	
+font-family: 'Shadows Into Light', cursive;
+color: black;
+margin-left: 10px;
+margin-top: 1px;
+font-size: 40px;
+text-align: center; 
+}
+
+h4{	
+font-family: 'Shadows Into Light', cursive;
+color: black;
+margin-left: 10px;
+margin-top: 1px;
+font-size: 20px;
+text-align: center; 
+}
+
+header{
+	width: 1200px;
+	height: 120 px;
+	background: rgba(255, 255, 255, 10,70);
+}
+
+nav{
+width: 1200px;
+height: 50px;
+background: rgba(255, 255, 255, 10,70);
+border-radius: 10px;
+
+}
+
+ul{
+	margin: auto;
+	padding-top: 4px;
+	float: right;
+}
+
+li{
+	float: left;
+	list-style-type: none;
+	padding: 10px;
+	margin: 3px;
+	border-radius: 10px;
+	box-shadow: 0 0 10px red inset; 
+}
+
+section{
+	width: 1000px;
+	height: 590px;
+	float: left;
+	margin-top: 20px;
+	border-radius: 10px;
+	box-shadow: 0 0 10px red inset; 
+}
+
+/*Tomando el ejemplo del tutor, modifico para colocar uin fondo al aside, pensando en un diseño acorde a la pagina*/
+aside{
+	background-image: url(../img/1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: rgb(0,0,255); opacity: 0.7;
+	width: 180px; 
+	height: 970px;
+	float: left;
+	margin-right: 20px;
+	margin-top: 20px;
+	border-radius: 10px;
+}
+
+footer{
+width: 1200px;
+height: 30px;
+float: left;
+margin-top: 20px;
+border-radius: 10px;
+margin-bottom: 5px;
+background-color: white;
+box-shadow: 0 0 10px red inset; 
+}
+
+p{
+
+	font-size: 15px;
+	font-weight: bolder;
+	line-height: 24px;
+	padding: 11px;
+	text-align: justify;
+}
+
+
+
+
+/*CLASES*/
+
+.ancho_menu_home{width: 900px;}
+.ancho_menu_paginas{width: 970px;}
+
+.menu:link{color: black; text-decoration: none;}
+.menu:visited{color: black; text-decoration: none;}
+.menu:hover{color: black; text-decoration: none; text-shadow: 0 0 13px green;}
+.menu:active{color: black; text-decoration: none;}
+
+/*esta clase es para dar el formato correspondiente a la lista contenida en el aside*/
+.menu-aside:link{color: white; text-decoration: none;}
+.menu-aside:visited{color: white; text-decoration: none;}
+.menu-aside:hover{color: black; text-decoration: none; text-shadow: 0 0 13px white;}
+.menu-aside:active{color: white; text-decoration: none;}
+
+/*Esta clase para cambiar la lista del aside*/
+.list-a{
+	float: right;
+	list-style-type: circle;
+	padding: 10px;
+	margin: 5px;
+	border-radius: 10px;
+	box-shadow: 0 0 20px white inset;
+}
+
+/*Esta clase la utilzo para modificar el height de la segunda seccion*/
+.se-a{
+	width: 1000px;
+	height: 360px;
+	float: left;
+	margin-top: 20px;
+	border-radius: 10px;
+	box-shadow: 0 0 10px red inset; 
+}
+
+.imagen{
+margin-top: 20px;
+border-radius: 10px;
+margin-bottom: 5px;
+box-shadow: 0 0 10px red inset;
+background-color: rgb(0,0,255); opacity: 0.8; 
+}
+
+/*SEUDO CLASES*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
