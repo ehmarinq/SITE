@@ -97,7 +97,7 @@ aside{
 	background-image: url(../img/1.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-color: rgb(0,0,255); opacity: 0.7;
+	background-color: rgb(0,0,0); opacity: 0.8; 
 	width: 180px; 
 	height: 970px;
 	float: left;
@@ -139,10 +139,15 @@ p{
 .menu:hover{color: black; text-decoration: none; text-shadow: 0 0 13px green;}
 .menu:active{color: black; text-decoration: none;}
 
+.menu-bold:link{color: white; font-weight: bold; text-decoration: none;}
+.menu-bold:visited{color: black; text-decoration: none;}
+.menu-bold:hover{color: black; text-decoration: none; text-shadow: 0 0 13px green;}
+.menu-bold:active{color: white; text-decoration: none;}
+
 /*esta clase es para dar el formato correspondiente a la lista contenida en el aside*/
 .menu-aside:link{color: white; text-decoration: none;}
 .menu-aside:visited{color: white; text-decoration: none;}
-.menu-aside:hover{color: black; text-decoration: none; text-shadow: 0 0 13px white;}
+.menu-aside:hover{color: black; font-weight: bold; text-decoration: none; text-shadow: 0 0 13px white;}
 .menu-aside:active{color: white; text-decoration: none;}
 
 /*Esta clase para cambiar la lista del aside*/
@@ -153,6 +158,16 @@ p{
 	margin: 5px;
 	border-radius: 10px;
 	box-shadow: 0 0 20px white inset;
+}
+/**/
+.list-b{
+	float: left;
+	list-style-type: none;
+	background-color: red;
+	padding: 10px;
+	margin: 3px;
+	border-radius: 10px;
+	box-shadow: 0 0 10px red inset; 
 }
 
 /*Esta clase la utilzo para modificar el height de la segunda seccion*/
@@ -170,7 +185,7 @@ margin-top: 20px;
 border-radius: 10px;
 margin-bottom: 5px;
 box-shadow: 0 0 10px red inset;
-background-color: rgb(0,0,255); opacity: 0.8; 
+background-color: rgb(0,0,0); opacity: 0.7; 
 }
 
 /*SEUDO CLASES*/
