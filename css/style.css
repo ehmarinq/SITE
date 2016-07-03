@@ -188,6 +188,13 @@ box-shadow: 0 0 10px red inset;
 background-color: rgb(0,0,0); opacity: 0.7; 
 }
 
+.login{	
+margin-left: 10px;
+margin-top: 1px;
+font-size: 30px;
+text-align: center;
+}
+
 /*SEUDO CLASES*/
 
 
